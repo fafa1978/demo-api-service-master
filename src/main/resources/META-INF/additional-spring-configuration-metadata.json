@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "nero2005",
+      "type": "java.lang.String",
+      "description": "Description for admin.password."
+    },
+    {
+      "name": "fabio.fidone@alice.it",
+      "type": "java.lang.String",
+      "description": "Description for admin.email."
+    }
+  ]
+}

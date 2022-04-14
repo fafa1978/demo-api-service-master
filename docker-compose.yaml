@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+
+  demo-postgresql:
+    container_name: demo-postresql1
+    image: postgres:latest
+    ports:
+      - 5433:54323
+#    volumes:
+#      - ./volumes/postgresql/data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=demodb
+      - TZ=Europe/Rome
